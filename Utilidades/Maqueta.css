@@ -1,0 +1,46 @@
+/* maqueta */
+.contenedor{
+	width: 90%;
+	/*flexbox*/
+	display: flex;
+	flex-flow: row wrap;
+}
+
+header{
+	width: 100%;
+	background-color: #2c3e50;
+	/*flexbox*/
+	display: flex;
+}
+
+.main
+{
+	background: red;
+	flex: 1 1 70%;
+	/*flexbox*/
+	display: flex;
+}
+
+aside {
+	background: #e67e22;
+	flex: 1 1 30%;
+	/*flexbox*/
+	display: flex;
+	flex-wrap: wrap;
+
+}
+aside button{
+	background: red;
+}
+aside button:hover {
+	background: orange;
+}
+
+footer {
+	background: #c0392b;
+	width: 100%;
+	/*flexbox*/
+	display: flex;
+	flex-wrap: wrap;
+
+}
