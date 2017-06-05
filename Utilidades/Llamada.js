@@ -1,7 +1,7 @@
 // JavaScript Document
-var x;
-x=$(document);
-x.ready(inicializarEventos());
+
+var x=$(document);
+x.ready(inicializarEventos);
 
 function inicializarEventos(){
 	var bPro = $("#btnProd");
@@ -18,21 +18,21 @@ function inicializarEventos(){
 }
 
 function llamarProducto(){
-	$("#Contenido").html(" <iframe src='Vista/guiProducto.php'></iframe>");
+	$('#Contenido').html(" <iframe class='embed-responsive-item' src='Vista/guiProducto.php'></iframe>");
 }
 
 function llamarPedido(){
-	$("#Contenido").html(" <iframe src='Vista/guiPedido.php'></iframe>");
+	$('#Contenido').html(" <iframe class='embed-responsive-item' src='Vista/guiPedido.php'></iframe>");
 }
 
 function llamarCombo(){
-	$("#Contenido").html(" <iframe src='Vista/guiCombo.php'></iframe>");
+	$('#Contenido').html(" <iframe class='embed-responsive-item' src='Vista/guiCombo.php'></iframe>");
 }
 
 function llamarPublicidad(){
-	$("#Contenido").html(" <iframe src='Vista/guiPublicidad.php'></iframe>");
+	$('#Contenido').html(" <iframe class='embed-responsive-item' src='Vista/guiPublicidad.php'></iframe>");
 }
 
 function llamarVenta(){
-	$("#Contenido").html(" <iframe src='Vista/guiVenta.php'></iframe>");
+	$("#Contenido").html(" <iframe class='embed-responsive-item' src='Vista/guiVenta.php'></iframe>");
 }
